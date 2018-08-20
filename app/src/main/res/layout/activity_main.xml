@@ -50,7 +50,7 @@
         android:layout_weight="0.6"
         android:id="@+id/lview"/>
     <Button
-        android:id="@+id/Showall"
+        android:id="@+id/showall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

@@ -9,4 +9,6 @@ interface PlacesAPI {
     @GET("maps/api/place/nearbysearch/json?radius=1000&key=AIzaSyDdCGdR2cnWw0AB0LeN3jOTjKmkKag4tew")
     fun getPlacesAPIBeans(@Query("location") loc:String,
                   @Query("type") type:String):Call<PlacesAPIBeans>
+    @GET("/maps/api/place/photo?maxwidth=100&photoreference=&key=AIzaSyDdCGdR2cnWw0AB0LeN3jOTjKmkKag4tew")
+    fun getPhotoReference(@Query("lphoto") photo :String) :Call<PlacesAPIBeans>
 }
